@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Sé contar del 1 al 5000</h1>
+<ul>
+  <?php
+      for($i=0; $i<5000; $i++) {
+          printf("<li>Número %d</li>", $i+1);
+      }
+  ?> 
+</ul>
+<h2> Tambien se poner 400 celdas </h2>
+<table border="1px">
+<?php
+	for($i=0; $i<20;$i++) {
+    	printf("<tr>");
+        for($j=0; $j<20;$j++) {
+        	printf("<td>Celda</td>");
+        }
+        printf("</tr>");
+    }
+?>
+</table>
+</body>
+</html>
