@@ -1,5 +1,7 @@
 # Sintaxis HTML
 
+> 29.08.25
+
 - **DOCTYPE**: Especifica el tipo de documento que se va a realizar y la versión: HTML5
 
 ```HTML
@@ -11,8 +13,6 @@
 ```HTML
 <meta charset="utf-8">
 ```
-
-> 29.08.25
 
 ### Etiquetas de HTML
 
