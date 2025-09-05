@@ -21,17 +21,17 @@ Prerequisitos:
 
 Pasos:
 
-    - Panel de control > Programas y características
-    - Activar o desactivar las características de Windows
-        - .NET Framework 3.5
-        - Internet Information Services
-            - WWW > Application Development Features > CGI
+- Panel de control > Programas y características
+- Activar o desactivar las características de Windows
+    - .NET Framework 3.5
+    - Internet Information Services
+    - WWW > Application Development Features > CGI
 
 Cliente ----> SRV Web
 
 Web: Apache, Nginx, IIS
 
-- Servidor (Socket de Entrada)
+Servidor (Socket de Entrada)
   
   - Protocolo: IP Address
   - Comunicación: Port

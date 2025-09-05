@@ -1,3 +1,17 @@
+# Sintaxis HTML
+
+- **DOCTYPE**: Especifica el tipo de documento que se va a realizar y la versión: HTML5
+
+```HTML
+    <!DOCTYPE html>
+```
+
+- **meta**: Para añadir metadatos, como la codificación de los caracteres `utf-8`
+
+```HTML
+    <meta charset="utf-8">
+```
+
 > 29.08.25
 
 ### Etiquetas de HTML
