@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Muestra CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        
+        #tprincipal {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+        }
+        
+        .encabezado {
+            background-color: orange;
+        }
+        
+        .menu-izq {
+            background-color: lightgreen;
+            width: 164px;
+            vertical-align: top;
+        }
+        
+        .contenido {
+            background-color: blue;
+            padding: 18px;
+            vertical-align: top;
+        }
+        
+        #fila1 {
+            height: 48px;
+        }
+        
+        #fila2 {
+            height: 720px;
+        }
+
+        #enlaces-sup {
+            text-align: right;
+            padding: 0 10px 0 10px;
+        }
+        
+        a {
+            padding: 6px;
+            background-color: yellow;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: orange;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+           margin-bottom: 20px;
+        }
+
+        #tpelis {
+            background-color: white;
+            border-collapse: collapse;
+        }
+
+        #tpelis tr:nth-child(even) {
+            bakground-color: lightgray: 
+        }
+    </style>
+  </head>
+  <body>   
+    <table id="tprincipal">
+      
+      <tr id="fila1">
+        <td class="encabezado">
+          <img src="#" alt="Mi logo">
+        </td>
+        <td id="enlaces-sup" class="encabezado">
+          <a href="#">Inicio</a>
+          <a href="#">Contacto</a>
+        </td>
+      </tr>
+      <!-- MENU IZQUIERDO -->
+      <tr id="fila2">
+        <td class="menu-izq">
+          <ul>
+            <li><a href="#">Enlace 1</a></li>
+            <li><a href="#">Enlace 1</a></li>
+            <li><a href="#">Enlace 1</a></li>
+          </ul>
+        </td>
+        <!-- CONTENIDO -->
+        <td class="contenido">
+          <h1>Mis Pelis Favoritas</h1>
+          <table id="tpelis">
+            <tr>
+              <th>Num</th>
+              <th>Nombre</th>
+              <th>Calificación</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Perfect Days</td>
+              <td>7.9</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>The Dark Knight</td>
+              <td>9.1</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>The Batman</td>
+              <td>7.8</td>
+            </tr> 
+          </table>
+        </td>
+      </tr>
+
+    </table>
+  </body>
+</html>
