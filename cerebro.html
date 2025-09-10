@@ -2,20 +2,61 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
+    <title>Cerebro</title>
+    <style>
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+      
+        .campo-azul {
+            background-color: #5CA3E8;
+        }
+    
+        .campo-naranja {
+            background-color: #E79A71;
+        }
+
+        td {
+            border-radius: 18px;
+        }
+
+        h3 {
+            color: white;
+            margin: 24px 12px;
+            padding: 5px;
+            background-color: #138BD9;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        #cerebro {
+            font-size: 120px;
+            text-align: center;
+            // background-color: #138BD9;
+            // border-radius: 360px;
+        }
+
+        #encabezado {
+            padding: 18px;
+            //text-align: center;
+            font-size: 26px;
+        }
+    </style>
   </head>
   <body>
     <table>
       <!-- Encabezado de tabla-->
       <tr>
-        <th colspan="3" style="text-align: center">
+        <th id="encabezado" colspan="3">
           Prueba esta rutina si quieres...
         </th>
       </tr>
       <!-- Primera fila -->
       <tr>
         <td></td>
-        <td>
-          <h3>Crear Confianza</h3>
+        <td class="campo-azul">
+          <h3>Crear confianza</h3>
           <ul>
             <li>Hacer la cama</li>
             <li>Usar algo que te encante</li>
@@ -26,7 +67,7 @@
       </tr>
       <!-- Segunda fila -->
       <tr>
-        <td>
+        <td class="campo-naranja">
           <h3>Mantenerse enfocado</h3>
           <ul>
             <li>Escribir tu lista de tareas</li>
@@ -35,9 +76,9 @@
           </ul>
         </td>
         <td rowspan="2">
-          <h1>🧠</h1>
+            <h1 id="cerebro">🧠</h1>
         </td>
-        <td>
+        <td class="campo-azul">
           <h3>Sentirse conectado</h3>
           <ul>
             <li>Meditar</li>
@@ -48,7 +89,7 @@
       </tr>
       <!-- Tercera fila -->
       <tr>
-        <td>
+        <td class="campo-azul">
           <h3>Tomar un descanso</h3>
           <ul>
             <li>Pasar tiempo afuera</li>
@@ -56,7 +97,7 @@
             <li>Beber café o té</li>
           </ul>
         </td>
-        <td>
+        <td class="campo-naranja">
           <h3>Ser más saludable</h3>
           <ul>
             <li>Hacer estiramiento</li>
@@ -68,7 +109,7 @@
       <!-- Cuarta fila -->
       <tr>
         <td></td>
-        <td>
+        <td class="campo-naranja">
           <h3>Agudizar tu mente</h3>
           <ul>
             <li>Hacer un volcado de cerebro</li>
