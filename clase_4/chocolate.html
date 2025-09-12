@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charser="utf-8">
+    <title>demo js</title>
+
+</head>
+<body>
+</body>
+<script>
+    /*
+        Lety se gana la vida haciendo figuras de chocolate,
+        un cliente le pidió la siguiente figura:
+
+        Considerando que por cada cm2 emplea 10g de chocolate
+        ¿Cuántos kg necesitará para cubrir un pedido de 100pzas,
+        cuya longitud sea de 2.5cm?
+
+        RESP = 13.84 kg de chocolate
+    */
+
+    const PZAS = 100;
+    const GR_CM2 = 10;
+    const L = 2.5;
+    let area_t = 3 * (L * L);
+    let area_c = Math.PI * Math.pow(L/2, 2);
+    let area_total = area_t - area_c;
+    let kg = (area_total * PZAS * GR_CM2)/1000;
+
+    document.write(`<p>Lety necesitará ${kg.toFixed(2)} kg de 
+        chocolate para cubrir su pedido de ${PZAS} figuras de chocolate</p>`);
+</script>
+</html>

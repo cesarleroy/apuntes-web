@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charser="utf-8">
+    <title>demo js</title>
+
+</head>
+<body>
+</body>
+<script>
+    /*  En un centro nocturno la admisión cuesta
+        $500 por persona. En ocasiones aplican
+        una promoción llamada "Ladies Night", con
+        la cual las mujeres se benefician con el 
+        20% de descuento en la admisión. Elabore un
+        programa que determine el total a pagar de
+        un grupo de personas.
+
+        Ej: Si van 2 hombres y 2 mujeres, se pagan
+        $1800 pesos
+    */
+
+    const PASE = 500;
+    const DESCUENTO = 0.2;
+    let num_hom = prompt("Cuantos hombres asisten?"); 
+    let num_muj = prompt("Cuantas mujeres asisten?");
+    let total_h = PASE * num_hom;
+    let total_m = PASE * num_muj;
+    let total = total_h + total_m - total_m*DESCUENTO;
+    document.write(`<p>Por un grupo de ${num_hom} hombres y ${num_muj} mujeres, el total a pagar es de $${total}</p>`);
+
+</script>
+</html>

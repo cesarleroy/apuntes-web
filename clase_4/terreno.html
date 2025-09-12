@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charser="utf-8">
+    <title>demo js</title>
+
+</head>
+<body>
+</body>
+<script>
+    /*  Don erick quiere comprar un terreno de la forma mostrada.
+        Arreglo que por cada m2 se lo vendieran a $6900.
+        Considerando una longitud L de 10m, indique cuanto 
+        debe pagar don erick en total por el terreno antes de impuestos
+    */
+    const COSTO_M2 = 6900;
+    const LONGITUD = 10;
+    let terreno = (2 * LONGITUD * LONGITUD) + (1/2 * LONGITUD * LONGITUD);
+    let pago = COSTO_M2 * terreno;
+    document.write(`<p>Don erick tiene que pagar $${pago} por ${terreno}m<sup>2</sup><p>`);
+
+</script>
+</html>
