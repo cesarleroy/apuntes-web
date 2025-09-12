@@ -9,16 +9,16 @@
 
 ### Conocimientos previos:
 
-Lógica: JS
+Lógica **JS**
 
-* E/S Datos
+* Entrada y salida de datos
 * Expresión notación infija
 * Control de flujo: iteración, bifurcación
 * Funciones
 * Agrupaciones de datos: cadenas, arreglos y matrices
 * Estructuras
 
-POO: PHP
+POO **PHP**
 
 * Clases / Objetos
 * Construcción
@@ -29,14 +29,14 @@ POO: PHP
 
 Agrupaciones de datos:
 
-* Enteros
-* Reales
-* Textuales
-* Especiales
-* Vacíos: void, null, NaN, Undefined
+* Enteros: `byte`, `int`, `long`
+* Reales: `float`, `double`
+* Textuales: `string`, `char`
+* Especiales: `object`, `class`, `array`
+* Vacíos: `void`, `null`, `NaN`, `Undefined`
 
 Para js:
 
-* inmutables: const
-* mutables: let
-* var (no recomendable)
+* Inmutables: `const`
+* Mutables: `let`
+* `var` (no recomendable)
