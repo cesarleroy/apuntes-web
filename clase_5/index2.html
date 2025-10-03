@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title></title>
-<style>
-    .rojo {
+    <style>
+      .rojo {
         background-color: red;
-    }
-</style>
-</head>
-<body>
-</body>
-<script>
+      }
+    </style>
+  </head>
+  <body></body>
+  <script>
     document.write("<table>");
     for (let row = 1; row <= 8; row++) {
-        document.write("<tr>");
-        for (let col = 1; col <= 8; col++) {
-            document.write("<td class='");
-            if ((row % 2 == 0 && col % 2 == 0) || (row % 2 != 0 && col % 2 != 0)) {
-                document.write("rojo");
-            } else {
-                document.write("blanco");
-            }
-            document.write("'>1</td>");
+      document.write("<tr>");
+      for (let col = 1; col <= 8; col++) {
+        document.write("<td class='");
+        if ((row % 2 == 0 && col % 2 == 0) || (row % 2 != 0 && col % 2 != 0)) {
+          document.write("rojo'>1");
+        } else {
+          document.write("blanco'>2");
         }
-        document.write("</tr>");
+        document.write("</td>");
+      }
+      document.write("</tr>");
     }
     document.write("</table>");
-</script>
+  </script>
 </html>

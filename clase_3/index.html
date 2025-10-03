@@ -1,88 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Muestra CSS</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            height: 100%;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
-        
-        #tprincipal {
-            width: 100%;
-            height: 100%;
-            border-collapse: collapse;
-        }
-        
-        .encabezado {
-            background-color: orange;
-            text-align: center;
-        }
-        
-        .menu-izq {
-            background-color: lightgreen;
-            width: 164px;
-            vertical-align: top;
-        }
-        
-        .contenido {
-            background-color: blue;
-            padding: 18px;
-            vertical-align: top;
-        }
-        
-        #fila1 {
-            height: 48px;
-        }
-        
-        #fila2 {
-            height: 720px;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
 
-        #enlaces-sup {
-            text-align: right;
-            padding: 0 10px 0 10px;
-        }
-        
-        a {
-            padding: 6px;
-            background-color: yellow;
-            border-radius: 6px;
-            text-decoration: none;
-        }
+      #tprincipal {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+      }
 
-        a:hover {
-            background-color: orange;
-        }
+      .encabezado {
+        background-color: #0d1b2a;
+        color: #e0e1dd;
+        text-align: center;
+      }
 
-        ul {
-            list-style-type: none;
-        }
+      .menu-izq {
+        background-color: #415a77;
+        width: 164px;
+        vertical-align: top;
+      }
 
-        li {
-           margin-bottom: 20px;
-        }
+      .contenido {
+        background-color: #778da9;
+        padding: 18px;
+        vertical-align: top;
+      }
 
-        #tpelis {
-            background-color: white;
-            border-collapse: collapse;
-        }
+      #fila1 {
+        height: 48px;
+      }
 
-        #tpelis tr:nth-child(even) {
-            bakground-color: lightgray: 
-        }
+      #fila2 {
+        height: 720px;
+      }
+
+      #enlaces-sup {
+        text-align: right;
+        padding: 0 10px 0 10px;
+      }
+
+      a {
+        padding: 6px;
+        background-color: #e0e1dd;
+        color: #0d1b2a;
+        border-radius: 6px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        background-color: #778da9;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      li {
+        margin-bottom: 20px;
+      }
+
+      #tpelis {
+        background-color: #e0e1dd;
+        text-align: center;
+        color: #0d1b2a;
+        border-collapse: collapse;
+      }
+
+      #tpelis tr:nth-child(even) {
+        background-color: #415a77;
+        color: #e0e1dd;
+      }
     </style>
   </head>
-  <body>   
+  <body>
     <table id="tprincipal">
-      
       <tr id="fila1">
         <td class="encabezado">
-          <img src="#" alt="Mi logo">
+          <img src="#" alt="Mi logo" />
         </td>
         <td id="enlaces-sup" class="encabezado">
           <a href="#">Inicio</a>
@@ -121,11 +125,10 @@
               <td>3</td>
               <td>The Batman</td>
               <td>7.8</td>
-            </tr> 
+            </tr>
           </table>
         </td>
       </tr>
-
     </table>
   </body>
 </html>
