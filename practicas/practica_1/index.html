@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #tabla-principal {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+        margin: 12px;
+    }
+
+    #encabezado {
+        text-align: center;
+        border: 1xp solid black;
+    }
+
+    #enlaces-sup {
+        text-align: right;
+        padding: 0 28px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        padding: 8px;
+    }
+
+    #fila-1 {
+        height: 48px;
+        background-color: #669bbc;
+        border: 1xp solid black;
+    }
+
+    #fila-2 {
+        height: 24px;
+    }
+
+    #fila-3 {
+        height: 540px;
+    }
+
+    #menu-izq {
+        vertical-align: top;
+        border: 1px solid black;
+        background-color: #caf0f8;
+    }
+
+    .dias {
+        height: 48px;
+    }
+
+    #calendario {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px;
+    }
+
+    .calendario {
+        padding: 16px;
+    }
+
+    #encabezado-cal {
+        background-color: lightgray;
+    }
+
+    a {
+        padding: 6px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+</style>
+</head>
+<body>
+    <table id="tabla-principal">
+        <tr id="fila-1">
+            <td id="encabezado">
+                <p>Sistema</p>
+            </td>
+            <td id="enlaces-sup">
+                <ul>
+                    <a href="#">Link</a>
+                    <a href="#">Link</a>
+                </ul>                
+            </td>
+        </tr>
+        <tr id="fila-2">
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="menu-izq">
+                <ul>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>                
+            </td>
+            <td class="calendario">
+                <p>Calendario</p>
+                <table id="calendario" border="1px">
+                    <tr class="dias" id="encabezado-cal">
+                        <td>Lunes</td>
+                        <td>Martes</td>
+                        <td>Miércoles</td>
+                        <td>Jueves</td>
+                        <td>Viernes</td>
+                    </tr>
+                    <tr class="dias">
+                        <td>Junta</td>
+                        <td></td>
+                        <td></td>
+                        <td>Examen</td>
+                        <td></td>
+                    </tr>
+                    <tr class="dias">
+                        <td></td>
+                        <td>Reunión</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="dias">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr> 
+                    <tr class="dias">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Ejercicio</td>
+                    </tr>
+                </table>    
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

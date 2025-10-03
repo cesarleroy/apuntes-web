@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        height: 100%;
+        width: 100%;
+        padding: 12px;
+        margin: 0;
+    }
+
+    .alumnos, .estadisticas {
+        border: solid 1px black;
+        text-align: center;
+        width: 250px;
+    }
+
+    th {
+        background-color: #415a77;
+        color: lightgray;
+    }
+
+    .alumnos tr:nth-child(even) {
+        background-color: lightblue;
+    }
+    
+    .estadisticas tr:nth-child(odd) {
+        background-color: lightblue;
+    }
+
+
+</style>
+</head>
+<body>
+    
+</body>
+<script>
+    let alumno1 = prompt("Introduce el nombre del alumno 1: ");
+    let cali1 = parseInt(prompt("Introduce la calificación del alumno 1: "));
+    
+    let alumno2 = prompt("Introduce el nombre del alumno 2: ");
+    let cali2 = parseInt(prompt("Introduce la calificación del alumno 2: "));
+
+    let alumno3 = prompt("Introduce el nombre del alumno 3: ");
+    let cali3 = parseInt(prompt("Introduce la calificación del alumno 3: "));
+
+    let alumno4 = prompt("Introduce el nombre del alumno 4: ");
+    let cali4 = parseInt(prompt("Introduce la calificación del alumno 4: "));
+
+    let alumno5 = prompt("Introduce el nombre del alumno 5: ");
+    let cali5 = parseInt(prompt("Introduce la calificación del alumno 5: "));
+
+    let alumno6 = prompt("Introduce el nombre del alumno 6: ");
+    let cali6 = parseInt(prompt("Introduce la calificación del alumno 6: "));
+
+    let alumno7 = prompt("Introduce el nombre del alumno 7: ");
+    let cali7 = parseInt(prompt("Introduce la calificación del alumno 7: "));
+
+    let alumno8 = prompt("Introduce el nombre del alumno 8: ");
+    let cali8 = parseInt(prompt("Introduce la calificación del alumno 8: "));
+
+    let alumno9 = prompt("Introduce el nombre del alumno 9: ");
+    let cali9 = parseInt(prompt("Introduce la calificación del alumno 9: "));
+
+    let alumno10 = prompt("Introduce el nombre del alumno 10: ");
+    let cali10 = parseInt(prompt("Introduce la calificación del alumno 10: "));
+
+    
+
+    let promedio = (cali1 + cali2 + cali3 + cali4 + cali5 + 
+        cali6 + cali7 + cali8 + cali9 + cali10) / 10;
+
+    let peor_cali = Math.min(cali1, cali2, cali3, cali4, cali5, 
+        cali6, cali7, cali8, cali9, cali10);
+    let mejor_cali = Math.max(cali1, cali2, cali3, cali4, cali5, 
+        cali6, cali7, cali8, cali9, cali10);
+
+    document.write("<h2>Mis alumnos</h2>");
+    document.write("<table class='alumnos'>");
+    document.write("<tr>");
+    document.write(`<th>Nombre</th>`);
+    document.write(`<th>Calificación</th>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno1}</td>`);
+    document.write(`<td>${cali1}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno2}</td>`);
+    document.write(`<td>${cali2}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno3}</td>`);
+    document.write(`<td>${cali3}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno4}</td>`);
+    document.write(`<td>${cali4}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno5}</td>`);
+    document.write(`<td>${cali5}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno6}</td>`);
+    document.write(`<td>${cali6}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno7}</td>`);
+    document.write(`<td>${cali7}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno8}</td>`);
+    document.write(`<td>${cali8}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno9}</td>`);
+    document.write(`<td>${cali9}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>${alumno10}</td>`);
+    document.write(`<td>${cali10}</td>`);
+    document.write("</tr>");
+    document.write("</table>");
+
+    document.write("<h3>Estadísticas</h3>");
+    document.write("<table class='estadisticas'>");
+    document.write("<tr>");
+    document.write(`<td>Promedio</td>`);
+    document.write(`<td>${promedio}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>Peor Calificación</td>`);
+    document.write(`<td>${peor_cali}</td>`);
+    document.write("</tr>");
+    document.write("<tr>");
+    document.write(`<td>Mejor Calificación</td>`);
+    document.write(`<td>${mejor_cali}</td>`);
+    document.write("</tr>");
+    document.write("</table>");
+
+</script>
+</html>

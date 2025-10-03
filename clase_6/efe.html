@@ -1,0 +1,36 @@
+<script>
+
+let palabra = "hola";
+const vocales = ['a', 'e', 'i,', 'o', 'u'];
+
+function efe1(palabra) {
+    let resultado = "";
+    for (let i = 0; i < palabra.length; i++) {
+        let letra = palabra[i];
+        if (letra == 'a' || letra == 'e' ||letra == 'i' ||letra == 'o' || letra == 'u') {
+            resultado += letra + 'f' + letra;
+        } else {
+            resultado += letra;
+        }
+    }
+    return resultado;
+}
+//document.write(resultado);
+
+function efe(palabra) {
+    let resultado = "";
+    palabra.split('').forEach((letra) => {
+        for (let index in vocales) {
+            if (vocales[index] == letra) {
+                resultado += `${letra}f${letra}`;
+                return;
+            }
+        }
+        resultado += letra; 
+    });
+    return resultado;
+}
+
+document.write(`<h1>${efe1(palabra)}</h1>`);
+document.write(`<h2>${efe(palabra)}</h2>`);
+</script>
