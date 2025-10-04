@@ -9,6 +9,7 @@
  * puerto `:80`
 
 Cliente (petición) ==> Servidor (respuesta)
+
 Client (request) ==> Server (response)
 
 Servidor (Socket de Entrada)
@@ -25,8 +26,8 @@ Cliente (Socket de salida)
 
 Protocolo `HTTP`, Lenguaje `HTML`
 
-HTTP: HyperText Transfer Protocol
-HTML: HyperText Markup Language
+- HTTP: `HyperText Transfer Protocol`
+- HTML: `HyperText Markup Language`
 
 span
 
