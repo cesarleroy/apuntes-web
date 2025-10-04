@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ejercicios JS</title>
+  </head>
+  <body></body>
+  <script>
+    // 10) ROT13
+    function rot13(cadena) {
+      let encriptacion = "";
+      for (let i = 0; i < cadena.length; i++) {
+        let codigo = cadena[i].charCodeAt(0);
+        let rotado = cadena[i];
+
+        if (codigo >= 65 && codigo <= 90) {
+          rotado = String.fromCharCode(((codigo - 65 + 13) % 26) + 65);
+        }
+
+        if (codigo >= 97 && codigo <= 122) {
+          rotado = String.fromCharCode(((codigo - 97 + 13) % 26) + 97);
+        }
+
+        encriptacion += rotado;
+      }
+      return encriptacion;
+    }
+
+    // 9) Str to EFE
+    function efe(cadena) {
+      let efe_cadena = "";
+      for (let i = 0; i < cadena.length; i++) {
+        let letra = cadena[i];
+        if (
+          letra == "a" ||
+          letra == "e" ||
+          letra == "i" ||
+          letra == "o" ||
+          letra == "u"
+        ) {
+          efe_cadena += letra + "f";
+        }
+        efe_cadena += letra;
+      }
+      return efe_cadena;
+    }
+
+    // 8) Decimal a Binario
+    function dec2bin(numero) {
+      let residuo;
+      let binario = "";
+      do {
+        residuo = numero % 2;
+        binario = residuo + binario;
+        if (numero % 2 != 0) {
+          numero -= 1;
+        }
+        numero /= 2;
+      } while (numero != 0);
+      return binario;
+    }
+
+    // 7) Arreglo compuesto
+    function parser(arr) {
+      for (let i = 0; i < arr.length; i++) {
+        let valor = parseInt(arr[i]);
+        if (!isNaN(valor)) {
+          arr[i] = valor;
+          continue;
+        }
+
+        arr[i] = toBool(arr[i]);
+      }
+    }
+
+    function toBool(value) {
+      if (value.toLowerCase() === "true") {
+        return true;
+      } else if (value.toLowerCase() === "false") {
+        return false;
+      }
+      return value;
+    }
+
+    function arr_op(arr) {
+      let suma = 0,
+        texto = "",
+        and = true;
+      for (let i = 0; i < arr.length; i++) {
+        if (typeof arr[i] == "number") {
+          suma += arr[i];
+        } else if (typeof arr[i] == "boolean") {
+          and &&= arr[i];
+        } else {
+          texto += arr[i];
+        }
+      }
+
+      return [suma, and, texto];
+    }
+
+    // 5) Funcion factorial
+    function par_impar(numero) {
+      return numero % 2 == 0 ? "Par" : "Impar";
+    }
+
+    // 4) Funcion par-impar
+    function factorial(numero) {
+      if (numero == 0 || numero == 1) {
+        return 1;
+      } else {
+        return numero * factorial(numero - 1);
+      }
+    }
+
+    // 1) Desplegar mensaje en alert o documento, si el navegador tiene soporte para JS.
+    alert("Este navegador tiene soporte para JS");
+    document.write("<p>Este navegador tiene soporte para JS</p>");
+
+    // 2) Almacenar texto en variables y mostrar mensajes entrecomillados
+    let texto = prompt("Introduce mensaje: ");
+    document.write(`<p>Tu mensaje fue: "${texto}"</p>`);
+    document.write(`<p>Tu mensaje fue: '${texto}'</p>`);
+
+    // 3) Año bisiesto
+    let year = prompt("Introduce un año: ");
+    let bisiesto = "";
+    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+      bisiesto = "es bisiesto";
+    } else {
+      bisiesto = "no es bisiesto";
+    }
+    document.write(`<p>${year} ${bisiesto}</p>`);
+
+    // 4) Funcion par-impar
+    let numero = parseInt(prompt("Introduce un numero: "));
+    document.write(`<p>${numero} es ${par_impar(numero)}</p>`);
+
+    // 5) Funcion factorial
+    document.write(`<p>${numero}! es ${factorial(numero)}</p>`);
+
+    // 6) 12 meses del año con su ordinal, con arreglos
+    let meses = [];
+    for (let i = 0; i < 12; i++) {
+      meses.push(new Date(2025, i, 1));
+    }
+
+    document.write("<h4>Meses y sus ordinales</h4>");
+    document.write("<ul>");
+    for (let i = 0; i < meses.length; i++) {
+      document.write(`<li>${meses[i]}</li>`);
+    }
+    document.write("</ul>");
+
+    // 7) Arreglo compuesto
+    let array = [];
+    for (let i = 0; i < 10; i++) {
+      array.push(prompt("Introduce un valor para el arreglo compuesto: "));
+    }
+
+    parser(array);
+    let valores = arr_op(array);
+
+    document.write(`<p>Suma de los valores del arreglo: ${valores[0]}</p>`);
+    document.write(`<p>AND de los valores del arreglo: ${valores[1]}</p>`);
+    document.write(
+      `<p>Concatenacion de los valores del arreglo: ${valores[2]}</p>`
+    );
+
+    // 8) Convertir un entero en binario
+    document.write(`<p>${numero} en binario es ${dec2bin(numero)}</p>`);
+
+    // 9) Funcion EFE
+    let cadena = prompt("Introduce una cadena para convertirla a efe");
+    document.write(`<p>${cadena} en EFE es: ${efe(cadena)}</p>`);
+
+    // 10) Funcion que devuelva una cadena encriptada en 13
+    document.write(`<p>${cadena} en ROT13 es: ${rot13(cadena)}</p>`);
+  </script>
+</html>
