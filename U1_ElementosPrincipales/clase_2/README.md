@@ -26,9 +26,6 @@ Cliente (Socket de salida)
 
 Protocolo `HTTP`, Lenguaje `HTML`
 
-- HTTP: `HyperText Transfer Protocol`
-- HTML: `HyperText Markup Language`
-
 span
 
 col span <--- una columna
@@ -42,7 +39,8 @@ row span <--- une filas
 | **URL**     | *Uniform Resource Locator*  | Localizador Uniforme de Recursos   |
 | **DNS**     | *Domain Name System*        | Sistema de Nombres de Dominio      |
 | **ISP**     | *Internet Service Provider* | Proveedor de Servicios de Internet |
-
+| **HTTP**    | *HyperText Transfer Protocol* | Protocolo de Transferencia de Hipertexto |
+| **HTML**    | *HyperText Markup Language* | Lenguaje de Marcado de Hipertexto |
 
 ## 1.1. Configuración de IIS en Windows
 
