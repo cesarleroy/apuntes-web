@@ -8,21 +8,22 @@
  * direccion `://127.0.0.1` o `://localhost`
  * puerto `:80`
 
-Cliente ----> SRV Web
-
-Web: Apache, Nginx, IIS
+Cliente (petición) ==> Servidor (respuesta)
+Client (request) ==> Server (response)
 
 Servidor (Socket de Entrada)
   
+  - Respuesta: Response
   - Protocolo: IP Address
   - Comunicación: Port
-  - Respuesta: Response
+  - Apache, Nginx, IIS, Tomcat
 
-- Cliente (Socket de salida)
+Cliente (Socket de salida)
 
   - Petición: Request
+  - Navegador web
 
-Protocolo HTTP, Lenguaje HTML
+Protocolo `HTTP`, Lenguaje `HTML`
 
 HTTP: HyperText Transfer Protocol
 HTML: HyperText Markup Language
@@ -56,9 +57,9 @@ Pasos:
 2. Acceder a `Activar o desactivar las características de Windows` y activar lo siguiente
     - [x] `.NET Framework 3.5`
     - [x] `Internet Information Services`
-    - [x] `World Wide Web Services`
+      - [x] `World Wide Web Services`
         - [x] `Application Development Features`
-            - [x] `CGI`
+          - [x] `CGI`
 
 
 - Ruta de archivos del servidor en windows: `C:/inetpub/wwwroot`
@@ -71,24 +72,24 @@ Pasos:
 WIN + R y escribir inetmgr
 ```
 
-Una vez en INETMRG
+Una vez en inetmgr (IIS Manager)
 
 ```
 - Server Sites 
   - Default Web Server 
     - Add Virtual Directory
-      - Add alias
-        - Physical path
+      - Agregar Alias (add alias)
+      - Agregar el Path Físico (add physical path)
 ```
 
 Para añadir el path del directorio virtual, esté debe contener los permisos necesarios para los usuarios de IIS
 
 ```
-- Directorio
+- Directorio objetivo
   - Propiedades
     - Seguridad
       - Editar permisos
-        - IIS_IUSR & IIS
+        - Añadir los usuarios IIS_IUSR & IIS
 ```
 
 Añadir archivos a la carpeta de trabajo
