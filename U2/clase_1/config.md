@@ -3,7 +3,7 @@
 > 09.10.25
 
 
-## Instalar PHP vía CGI para IIS
+## Instalación de PHP vía CGI para IIS
 
 **Pasos**
 
@@ -20,7 +20,7 @@
 ```
 
 2. Visual C++ Redistributable (2015-2022).
-3. Descargar e instalar [PHP](windows.php.net) NTS.
+3. Descargar e instalar [PHP](https://windows.php.net) NTS.
 4. php.ini, crear a partir de la plantilla `php.ini-development`
 5. Configurar PHP para ser usado por IIS, editar `php.ini`
 

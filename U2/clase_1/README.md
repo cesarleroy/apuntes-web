@@ -24,7 +24,22 @@ El lenguaje PHP
 3. Control de flujo
 
 ```php
-    if-else, switch, for, while, do-while, foreach
+    if else, switch, for, while, do while, foreach
+
+    foreach(arreglo as valor) {
+        # procesos
+    }
+
+    # Solo toma los valores, no las claves
+    foreach(arreglo_asociativo as valor) {
+        # procesos
+    }
+
+    # Toma los pares (clave, valor)
+    foreach(arreglo_asociativo as clave => valor) {
+        # procesos
+    }
+
 ```
 
 4. Agrupación de datos
