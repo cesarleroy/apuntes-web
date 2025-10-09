@@ -10,19 +10,20 @@
 1. Habilitar IIS (con CGI) 
 
 ```
-    Control Panel 
-        > Aplicaciones y Programas 
-            > Activar o desactivar 
-                > Internet Information Services 
-                    > World Wide Web Services 
-                        > Aplication Development Features 
-                            > CGI
+    - Control Panel
+      - Programas y Caracterìsticas
+        - Activar o desactivar las características de Windows
+          - [X] .NET Framework 3.5
+          - [X] Internet Information Services
+            - [X] World Wide Web Services 
+              - [X] Aplication Development Features 
+                - [X] CGI
 ```
 
-2. Visual C++ Redistributable (2015-2022).
-3. Descargar e instalar [PHP](https://windows.php.net) NTS.
-4. php.ini, crear a partir de la plantilla `php.ini-development`
-5. Configurar PHP para ser usado por IIS, editar `php.ini`
+2. Tener instalados `Microsfot Visual C++ 2015-2022 Redistributable`
+3. Descargar e instalar [PHP NTS](https://windows.php.net/download/) (Non Thread Safe).
+4. Crear el `php.ini`, copiar a partir de la plantilla `php.ini-development`
+5. Editar el `php.ini` para configurar PHP y ser usado por IIS
 
 ```
     cgi.force_redirect = 0
@@ -32,22 +33,20 @@
 ```
 
 6. Configurar IIS para usar php mediante CGI. Abrir el administrador de ISS `inetmgr`
-
 7. Agregar una asignación de modulo hacia `php_cgi.exe`.
+8. Configurar para archivos y carpetas.
+9. Crear un directorio de trabajo.
 
 ```
-    INETMGR 
-        > Module mapping
-          > Asignaciones de controlador
+  WIN + R
+    - INETMGR
+      - Handler Mappgins
+        - Add Module mapping
             Ruta de acceso de solicitudes [*.php]
             Modulo [FastCgiModule]
             Ejecutable [php-cgi.exe]
             Nombre [php_via_cgi]
             
-            Restricciones > Archivos o carpetas
-
+          - Restricciones
+            - Archivos o carpetas
 ```
-
-8. Configurar para archivos y carpetas.
-9. Crear un directorio de trabajo.
-
