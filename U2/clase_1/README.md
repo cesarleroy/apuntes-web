@@ -2,7 +2,7 @@
 
 > 09.10.25
 
-El lenguaje PHP
+## El lenguaje PHP
 
 1. E/S datos
 
@@ -26,17 +26,17 @@ El lenguaje PHP
 ```php
     if else, switch, for, while, do while, foreach
 
-    foreach(arreglo as valor) {
+    foreach($arreglo as $valor) {
         # procesos
     }
 
     # Solo toma los valores, no las claves
-    foreach(arreglo_asociativo as valor) {
+    foreach($arreglo_asociativo as $valor) {
         # procesos
     }
 
     # Toma los pares (clave, valor)
-    foreach(arreglo_asociativo as clave => valor) {
+    foreach($arreglo_asociativo as $clave => $valor) {
         # procesos
     }
 
