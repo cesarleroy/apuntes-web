@@ -11,4 +11,6 @@ Al enviar la informacion, el profesor obtiene las siguientes estadísticas:"
 - *Un alumnos con NP no debería entrar a consideración
  para las estadísticas, pero si notificarse.*
 
-ENTREGA: Sesión teórica
+ENTREGA: Sesión teórica, individual o parejas.
+infinityfree (hosting) o laptop con IIS (no prestable).
+código fuente en GitHub
