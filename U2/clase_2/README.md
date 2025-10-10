@@ -9,11 +9,27 @@
 - GET usa la URL y los datos son visibles
 
 ```
-    DOMINIO?dato=valor&otroDato=otroValor
+  DOMINIO?dato=valor&otroDato=otroValor
 ```
 
 - POST embebe los datos en el encabezado de la petición
 
 ```
 
+```
+
+Directorios:
+
+- Production
+
+```
+  IIS C:\inetpub\wwwroot
+  APACHE .../htdocs
+         .../root
+```
+
+- Development
+
+```
+  {virtual_path}\carpeta
 ```
