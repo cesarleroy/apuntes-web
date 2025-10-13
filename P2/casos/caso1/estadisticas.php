@@ -1,5 +1,4 @@
 <?php
-
   $np = 0;
   $promedio = 0;
   $valores = [];
@@ -61,7 +60,6 @@
   }
 
   $datos["."] = "-";
-
 ?>
 
 <!DOCTYPE html>
@@ -75,50 +73,50 @@
         width: auto;
         padding: 0 16px;
         margin: 0;
-	color: #0d1b2a;
-	background-color: #e0e1dd;
+		color: #0d1b2a;
+		background-color: #e0e1dd;
       }
 
       #principal {
         width: 100%;
-	height: 450px;
-	text-align: center;
-	border: 1px solid black;
-	border-collapse: collapse;
-	background-color: #778da9;
+		height: 450px;
+		text-align: center;
+		border: 1px solid black;
+		border-collapse: collapse;
+		background-color: #778da9;
       }
 
       #encabezado, #fila-2 {
-	background-color: #1b263b;
-	color: #e0e1dd;
+		background-color: #1b263b;
+		color: #e0e1dd;
       }
 
       .importante {
-	color: #778da9;
+		color: #778da9;
       }
 
       .alerta {	
-	color: #d6636a;
+		color: #d6636a;
       }
 
       #tabla-izq, #alumnos {
         margin: 0 auto;
         border: 1px solid black;
-	border-collapse: collapse;
-	font-size: 18px;
-	background-color: #e0e1dd;
+		border-collapse: collapse;
+		font-size: 18px;
+		background-color: #e0e1dd;
       }
 
       #tabla-izq{
-	width: 60%;
+		width: 60%;
       }
 
       #alumnos {
-	width: 75%;
+		width: 75%;
       }
 
       #tabla-izq tr:nth-child(odd), #alumnos tr:nth-child(odd) {
-	background-color: #adb5bd;
+		background-color: #adb5bd;
       }
 
       .dato {
@@ -129,13 +127,12 @@
       	font-size: 36px;
       }
 
-
       #fila-3 td {
-	border-top: 1px solid black;
+		border-top: 1px solid black;
       }
 	
       #fila-3 > td {
-	border-right: 1px solid black;
+		border-right: 1px solid black;
       }
 
 
@@ -164,7 +161,7 @@
 
       <!-- Fila 3: Otras estadísticas y alumnpos-->
       <tr id="fila-3">
-	<td colspan="2">
+		<td colspan="2">
           <table id="tabla-izq" border>
             <tr>
               <td>Mejor calificación</td>
@@ -176,13 +173,13 @@
             </tr>
             <tr>
               <td rowspan="<?php echo $num_repro;?>">
-		Alumnos en área de oportunidad
-	      </td>
+				Alumnos en área de oportunidad
+	      	  </td>
               <td><?php
-		if ($num_repro >= 1) echo $reprobados[0];
-		else echo "---";
-	      ?>
-	      </td>
+				if ($num_repro >= 1) echo $reprobados[0];
+				else echo "---";
+	      		?>
+	      	  </td>
             </tr>
             <?php for($i = 1; $i < $num_repro; $i++): ?>
               <tr>
