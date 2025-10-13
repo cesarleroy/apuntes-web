@@ -15,4 +15,8 @@ ENTREGA: Sesión teórica, individual o parejas.
 
 infinityfree (hosting) o laptop con IIS (no prestable).
 
-código fuente en GitHub
+> Enlace del hosting: https://leroy.page.gd/calificaciones.php
+
+Código fuente: 
+- [Calificaciones](./calificaciones.php)
+- [Estadísticas](./estadisticas.php)
