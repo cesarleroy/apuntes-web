@@ -1,4 +1,6 @@
-# CASO PRÁCTICO
+# Caso Práctico 1
+
+> 10.10.25 | ??.10.25
 
 "Un profesor tiene 10 alumnos a los cuales les debe poder capturar su calificacion.
 Al enviar la informacion, el profesor obtiene las siguientes estadísticas:"
@@ -7,16 +9,15 @@ Al enviar la informacion, el profesor obtiene las siguientes estadísticas:"
 - % de aprobados y reprobados.
 - Peor y mejor calificación.
 - Alumnos en "área de oportunidad" (peores alumnos).
-
 - *Un alumno con NP no debería entrar a consideración
  para las estadísticas, pero si notificarse.*
 
-ENTREGA: Sesión teórica, individual o parejas.
 
-infinityfree (hosting) o laptop con IIS (no prestable).
+## 🔗 Enlace
 
-> Enlace del hosting: https://leroy.page.gd/calificaciones.php
+**Hosting:** [https://leroy.page.gd/calificaciones.php](https://leroy.page.gd/calificaciones.php)
 
-Código fuente: 
-- [Calificaciones](./calificaciones.php)
-- [Estadísticas](./estadisticas.php)
+## 💻 Código fuente
+
+- [Calificaciones (captura de datos)](./calificaciones.php)  
+- [Estadísticas (procesamiento de resultados)](./estadisticas.php)
