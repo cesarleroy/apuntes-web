@@ -19,5 +19,5 @@ Al enviar la informacion, el profesor obtiene las siguientes estadísticas:"
 
 ## 💻 Código fuente
 
-- [Calificaciones (captura de datos)](./calificaciones.php)  
-- [Estadísticas (procesamiento de resultados)](./estadisticas.php)
+- [Calificaciones](./calificaciones.php)  
+- [Estadísticas](./estadisticas.php)
