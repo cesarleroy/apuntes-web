@@ -9,4 +9,4 @@
 - Si se carga la página de inicio, regresar al login
 - Checkbox para recordar el usuario
 
-![Mockup caso](./session_ui.jpg)
+![Mockup caso](./sesion_ui.jpg)
