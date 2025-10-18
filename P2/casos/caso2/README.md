@@ -1,5 +1,7 @@
 # Caso práctico 2
 
+> 17.10.25 | ??.10.25
+
 - Login para usuario y contraseña
 - Si es exitosa, pasar a una ventana de inicio, bienvenido, dashboard
 - En la página principal un boton para cerrar sesión
