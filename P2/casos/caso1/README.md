@@ -1,6 +1,6 @@
 # Caso Práctico 1
 
-> 10.10.25 | ??.10.25
+> 10.10.25 | 17.10.25
 
 "Un profesor tiene 10 alumnos a los cuales les debe poder capturar su calificacion.
 Al enviar la informacion, el profesor obtiene las siguientes estadísticas:"
