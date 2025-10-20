@@ -100,7 +100,7 @@
           <input type="password" name="pass" placeholder="********"/>
         </div>
         <div class="recordar">
-          <input type="checkbox" name="recordar" id="input-recordar"/>
+          <input type="checkbox" name="recordar" id="input-recordar" checked/>
           <label id="label-recordar">Recuérdame</label>
         </div>
         <button type="submit">Ingresar</button>
