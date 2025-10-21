@@ -13,9 +13,14 @@
 
 ![Mockup caso](./sesion_ui.jpg)
 
+*Diagrama de flujo del proceso*: Síguelo cablon😾👊
+
+![Flujo](./flujo-auth.jpg)
+
+
 ## 🔗 Enlace
 
-**Hosting:** [https://leroy.page.gd/](https://leroy.page.gd/)
+**Hosting:** [https://leroy.page.gd/caso2/](https://leroy.page.gd/caso2/)
 
 ## 💻 Código fuente
 

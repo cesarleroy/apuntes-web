@@ -15,7 +15,7 @@ Al enviar la informacion, el profesor obtiene las siguientes estadísticas:"
 
 ## 🔗 Enlace
 
-**Hosting:** [https://leroy.page.gd/calificaciones.php](https://leroy.page.gd/calificaciones.php)
+**Hosting:** [https://leroy.page.gd/caso1/calificaciones.php](https://leroy.page.gd/caso1/calificaciones.php)
 
 ## 💻 Código fuente
 
