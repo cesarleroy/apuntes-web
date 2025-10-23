@@ -17,8 +17,8 @@ Librerias y frameworks
 - Bootstrap
 - JQuery
 - Datatables
-- react.js
-- angular
-- vue
+- React.js
+- Angular
+- Vue
 - chart.js
 - sweet alert
