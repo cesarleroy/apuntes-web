@@ -21,7 +21,7 @@ Síguelo cablon😾👊
 
 ## 🔗 Enlace
 
-**Hosting:** [https://leroy.page.gd/caso2/](https://leroy.page.gd/caso2/)
+**Hosting:** [https://leroy.page.gd/caso2/login.php](https://leroy.page.gd/caso2/login.php)
 
 ## 💻 Código fuente
 
