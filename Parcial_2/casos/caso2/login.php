@@ -1,4 +1,20 @@
 <?php
+session_start();
+
+$USER = "root@example";
+$PASS = "admin";
+
+if (isset($_SESSION["user"])) {
+  header("Location: ./home.php");
+  exit();
+}
+
+if (isset($_COOKIE["recordar"]) && $_COOKIE["recordar"] == "on") {
+  $_SESSION["user"] = $USER;
+  $_SESSION["pass"] = $PASS;
+  header("Location: ./home.php");
+  exit();
+}
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +41,7 @@
         background-color: white;
         border: 1px solid black;
         text-align: center;
-	border-radius: 16px;
+        border-radius: 16px;
       }
 
       h1 {
@@ -79,7 +95,7 @@
         border: 1px solid #999;
         cursor: pointer;
         font-size: 13px;
-	border-radius: 8px;
+        border-radius: 8px;
       }
 
       button:hover {
@@ -90,17 +106,17 @@
   <body>
     <div class="formulario">
       <h1>Iniciar Sesión</h1>
-      <form method="POST" action="home.php">
+      <form method="POST" action="./home.php">
         <div class="entrada">
           <label>Usuario:</label>
-          <input type="email" name="user" placeholder="user@example.com"/>
+          <input type="email" name="user" placeholder="user@example" required/>
         </div>
         <div class="entrada">
           <label>Contraseña:</label>
-          <input type="password" name="pass" placeholder="********"/>
+          <input type="password" name="pass" placeholder="********" required/>
         </div>
         <div class="recordar">
-          <input type="checkbox" name="recordar" id="input-recordar" checked/>
+          <input type="checkbox" name="recordar" id="input-recordar" value="on" checked/>
           <label id="label-recordar">Recuérdame</label>
         </div>
         <button type="submit">Ingresar</button>
