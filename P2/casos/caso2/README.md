@@ -1,6 +1,6 @@
 # Caso práctico 2
 
-> 17.10.25 | ??.10.25
+> 17.10.25 | 23.10.25
 
 - Login para usuario y contraseña
 - Si es exitosa, pasar a una ventana de inicio, bienvenido, dashboard
@@ -11,11 +11,11 @@
 - Si se carga la página de inicio, regresar al login
 - Checkbox para recordar el usuario
 
-![Mockup caso](./sesion_ui.jpg)
+![Mockup caso](./img/sesion_ui.jpg)
 
 ### *Diagrama de flujo del proceso*
 
-![Flujo](./flujo-auth.jpg)
+![Flujo](./img/flujo-auth.jpg)
 
 Síguelo cablon😾👊
 
