@@ -1,4 +1,6 @@
-Conexion a BD
+# Conexion a BD
+
+> 23.10.25
 
 - Driver: Viene incluido en php/ext. Habilitado ne php.ini
 
@@ -8,30 +10,7 @@ Conexion a BD
 
 Funciones del CRUD elemental:
 
-- Insertar(CREATE)
-
-Credenciales  ==> id insertado (int)
-Query (str)
-
-- Seleccionar(READ)
-Credenciales  ==> registrados []
-Query (str)  ==> objeto []
-
-
-- Actualizar(UPDATE)
-Credenciales  ==> bool 
-Query (str)
-
-
-- Eliminar(CREATE)
-Credenciales  ==> bool 
-Query (str)
-
-
-(inicio) => [Te conectas] => [Haces la operación] => [Te desconectas] = (fin)
-
-Cursor solo avanza hacia adelante, apunta a un stream. Pedir cosas en orden
-
+![CRUD elemental](./crud_elemental.jpg)
 
 Librerias y frameworks
 
