@@ -13,10 +13,11 @@
 
 ![Mockup caso](./sesion_ui.jpg)
 
-*Diagrama de flujo del proceso*: Síguelo cablon😾👊
+### *Diagrama de flujo del proceso*
 
 ![Flujo](./flujo-auth.jpg)
 
+Síguelo cablon😾👊
 
 ## 🔗 Enlace
 
