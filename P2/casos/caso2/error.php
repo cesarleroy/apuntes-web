@@ -38,7 +38,7 @@
 
     p {
       color: #666;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       text-align: center;
     }
 
@@ -61,7 +61,7 @@
     <div id="container">
       <h1>Error de autenticación</h1>
       <p>Usuario o contraseña incorrectos</p>
-      <form method="GET" action="./login.php">
+      <form method="POST" action="./login.php">
         <button type="submit">Volver al login</button>
       </form>
     </div>
