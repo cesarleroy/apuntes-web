@@ -7,7 +7,7 @@ $PASS = "admin";
 if (isset($_REQUEST["logout"])) {
   session_unset();
   session_destroy();
-  setcookie("recordar", "", time() - 3600, "/");
+  setcookie("recordar", "", time() - 1, "/");
   unset($_COOKIE["recordar"]);
   header("Location: ./login.php");
   exit();
@@ -19,9 +19,9 @@ if (isset($_REQUEST["user"]) && isset($_REQUEST["pass"])) {
     $_SESSION["pass"] = $PASS;
 
     if (isset($_REQUEST["recordar"]) && $_REQUEST["recordar"] == "on") {
-      setcookie("recordar", "on", time() + (86400 * 30), "/"); // 30 días
+      setcookie("recordar", "on", time() + (60 * 10), "/");
     } else {
-      setcookie("recordar", "", time() - 3600, "/");
+      setcookie("recordar", "", time() - 1, "/");
       unset($_COOKIE["recordar"]);
     }
   } else {
