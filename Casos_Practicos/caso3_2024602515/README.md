@@ -10,7 +10,7 @@ sus productos y que el acceso a su sistema este protegido
 
 ## 🔗 Enlace
 
-**Hosting:** [https://leroy.page.gd/caso3/login.php](https://leroy.page.gd/caso3/login.php)
+**Hosting:** [https://leroy.page.gd/caso3/](https://leroy.page.gd/caso3/)
 
 ## 💻 Código fuente
 
