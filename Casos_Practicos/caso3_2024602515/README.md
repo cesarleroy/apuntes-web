@@ -8,4 +8,15 @@ sus productos y que el acceso a su sistema este protegido
 
 - **Nota**: La apariencia es sumamente importante para la dueña
 
+## 🔗 Enlace
+
+**Hosting:** [https://leroy.page.gd/caso3/login.php](https://leroy.page.gd/caso3/login.php)
+
+## 💻 Código fuente
+
+- [Login](./login.php)
+- [Dashboard](./dashboard.php)
+- [SQLConnection](./mysqli_aux.php)
+- [Error](./error.php)
+
 Examen viernes 7 nov
