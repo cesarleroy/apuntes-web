@@ -2,6 +2,10 @@
 
 > 09.10.25
 
+## Configuración de PHP para el servidor
+
+ver el archivo [Config.md](./config.md)
+
 ## El lenguaje PHP
 
 1. E/S datos
