@@ -2,6 +2,7 @@
 
 > 29.10.25
 
+- En VSCode en el apartado de extensiones, buscar `PHP Debug`
 - Instalar el [debugger para php](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) de XCode, o bien el [Extension Pack](https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack) que incluye tanto el plugin de debugger como el intellisense (para la sintaxis).
 - Agregar configuración para crear el `launch.json`
 
