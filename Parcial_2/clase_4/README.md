@@ -2,9 +2,9 @@
 
 > 23.10.25
 
-- Driver: Viene incluido en php/ext. Habilitado ne php.ini
+- Driver: Viene incluido en php/ext. [Habilitar en php.ini](./config.md)
 
-- Modos: Procedural (MySQLi) y OO
+- Modos: Procedural (MySQLi) y Orientado a Objetos (PHP Data Objects PDO)
 
 - Implementación: CRUD Completo
 
