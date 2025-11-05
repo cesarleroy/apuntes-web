@@ -30,7 +30,7 @@ Copyright (c) The PHP Group
 Zend Engine v4.4.14, Copyright (c) Zend Technologies
     with Xdebug v3.4.5, Copyright (c) 2002-2025, by Derick Rethans
 ```
-Lo anterior nos indica que la extensión xdebug ha sido correctamente instalada y ya oslo debemos continuar con la configuración en VSCode
+Lo anterior nos indica que la extensión xdebug ha sido correctamente instalada y ya solo debemos continuar con la configuración en VSCode
 
 ## Windows
 
@@ -50,6 +50,16 @@ Lo anterior nos indica que la extensión xdebug ha sido correctamente instalada 
   xdebug.client_host = 127.0.0.1              
   xdebug.client_port = 9003
 ```
+
+6. Guardar cambios y verificar ejecutando `php -v`
+```zsh
+PS C:\Users\cesar> php -v
+PHP 8.4.13 (cli) (built: Sep 23 2025 15:17:27) (NTS Visual C++ 2022 x64)
+Copyright (c) The PHP Group
+Zend Engine v4.4.13, Copyright (c) Zend Technologies
+    with Xdebug v3.4.7, Copyright (c) 2002-2025, by Derick Rethans
+```
+Lo anterior nos indica que la extensión xdebug ha sido correctamente instalada y ya solo debemos continuar con la configuración en VSCode
 
 ## Configurando VSCode
 
