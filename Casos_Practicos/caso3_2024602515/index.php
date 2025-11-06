@@ -74,7 +74,7 @@ $datos = seleccionar([$SERVER, $USER, $PASSWORD, $DATABASE], "SELECT * FROM Prod
             <input type="text" name="nombre" required>
             
             <label>Precio</label>
-            <input type="number" name="precio" min="0" max="9999" required>
+            <input type="number" name="precio" min="0" max="9999" step=0.01 required>
             
             <label>Descripción</label>
             <input type="text" name="descripcion">
@@ -96,7 +96,7 @@ $datos = seleccionar([$SERVER, $USER, $PASSWORD, $DATABASE], "SELECT * FROM Prod
             <input type="text" name="nombre" id="nombre-actualizar" required>
             
             <label>Precio</label>
-            <input type="number" name="precio" id="precio-actualizar" min="0" max="9999" required>
+            <input type="number" name="precio" id="precio-actualizar" step=0.01 min="0" max="9999" required>
             
             <label>Descripción</label>
             <input type="text" name="descripcion" id="descripcion-actualizar">
