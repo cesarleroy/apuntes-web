@@ -14,9 +14,17 @@ sus productos y que el acceso a su sistema este protegido
 
 ## 💻 Código fuente
 
+### Main
+- [Index](./index.php)
+- [Estilos](styles.css)
+
+### Login
 - [Login](./login.php)
-- [Dashboard](./dashboard.php)
-- [SQLConnection](./mysqli_aux.php)
 - [Error](./error.php)
 
-Examen viernes 7 nov
+### CRUD
+- [MySQLI](./mysqli_aux.php.php)
+- [Credenciales](./config.php)
+- [Agregar](./agregar.php.php)
+- [Actualizar](./login.php)
+- [Eliminar](./eliminar.php)
