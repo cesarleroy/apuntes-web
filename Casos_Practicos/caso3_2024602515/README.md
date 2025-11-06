@@ -28,3 +28,6 @@ sus productos y que el acceso a su sistema este protegido
 - [Agregar](./agregar.php.php)
 - [Actualizar](./login.php)
 - [Eliminar](./eliminar.php)
+  
+### BD
+- [tiendita](./tiendita.sql)
