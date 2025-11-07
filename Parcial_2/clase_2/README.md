@@ -14,9 +14,6 @@
 
 - POST embebe los datos en el encabezado de la petición
 
-```
-
-```
 
 Directorios:
 
