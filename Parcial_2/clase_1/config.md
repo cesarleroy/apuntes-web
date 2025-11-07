@@ -32,7 +32,7 @@
     fastcgi.logging = 0
 ```
 
-6. Configurar IIS para usar php mediante CGI. Abrir el administrador de ISS `inetmgr`
+6. Configurar IIS para usar php mediante CGI. Abrir el administrador de IIS `inetmgr`
 7. Agregar una asignación de modulo hacia `php_cgi.exe`.
 8. Configurar para archivos y carpetas.
 9. Crear un directorio de trabajo.
