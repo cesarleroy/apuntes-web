@@ -67,5 +67,5 @@
 > Mediante Línea de Comandos (CLI)
 ```cmd
  setx /M PHP_HOME "C:\php"
- setx /M PATH "%PATH%;%PHP_HOME%
+ setx /M PATH "%PATH%;%PHP_HOME%"
 ```
