@@ -30,3 +30,4 @@
 - Proceso. Imagen de un programa cargado en memoria.
 - Hebra de un proceso (hilo). Subproceso que corre en paralelo al proceso principal
 
+![Procesos y subprocesos, Estados de una petición](./async-request-states.png)
