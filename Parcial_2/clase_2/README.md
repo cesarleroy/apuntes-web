@@ -12,10 +12,16 @@
   DOMINIO?dato=valor&otroDato=otroValor
 ```
 
-- POST embebe los datos en el encabezado de la petición
-
+- POST embebe los datos en el cuerpo (_body_) de la petición
 ```
+// Esto es el head de la petición HTTP
+POST /login HTTP/1.1
+Host: example.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 23
 
+// Esto es el body de la petición HTTP
+user=cesar&pass=1234
 ```
 
 Directorios:
