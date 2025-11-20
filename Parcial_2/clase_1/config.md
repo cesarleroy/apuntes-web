@@ -51,8 +51,9 @@
             - Archivos o carpetas
 ```
 
-> [!IMPORTANT] **Agregar PHP al Path**
-> 
+> [!IMPORTANT]
+> **Agregar PHP al Path**
+>
 > Este paso es necesario ya que más adelante se necesitará
 
 > Mediante Interfaz Gráfica
