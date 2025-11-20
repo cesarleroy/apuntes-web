@@ -15,6 +15,7 @@
 - El usuario hace una petición al **controlador**.
 - El controlador manipula el **modelo**.
 - El modelo manda una actualización a la **vista**.
+- La vista es lo que se presenta al usuario.
 
 ![Modelo Vista Controlador](./mvc.png)
 
