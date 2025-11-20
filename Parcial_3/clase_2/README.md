@@ -5,6 +5,19 @@
 - Sobre escritura de reglas
 - Instalación de Laravel
 - Gestor de componentes
+Algunos ejemplos de gestores de componentes son:
+
+Maven y Gradle para Java
+NuGet para .NET (C#)
+Compose para PHP
+
+![Gestor de componentes](./gestor.png)
+
+### Ataques web
+- Cross Site Request Forgery: Falsificación de Peticiones en Sitios Cruzados `CSRF`
+- Distributed Denial of Service: Denegación de Servicio Distribuido `DDoS`
+- Cross Site Scripting: Secuencia de Comandos en Sitios Cruzados `XSS`
+
 
 ---
 
