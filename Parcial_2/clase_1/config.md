@@ -53,6 +53,9 @@
 
 > [!IMPORTANT]
 > **Agregar PHP al Path**
+>
+> Este paso es necesario ya que más adelante se necesitará
+
 > Mediante Interfaz Gráfica
 ```
 └───Barra de búsqueda
