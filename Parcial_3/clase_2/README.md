@@ -5,11 +5,9 @@
 - Sobre escritura de reglas
 - Instalación de Laravel
 - Gestor de componentes
-Algunos ejemplos de gestores de componentes son:
-
-Maven y Gradle para Java
-NuGet para .NET (C#)
-Compose para PHP
+  * Maven y Gradle para Java
+  * NuGet para .NET (C#)
+  * Compose para PHP 
 
 ![Gestor de componentes](./gestor.png)
 
