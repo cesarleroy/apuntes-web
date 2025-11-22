@@ -24,5 +24,3 @@
 - Rutas hacia ejecutables para ser encontrados por el sistema de línea de comandos
 - Las aplicaciones de programación por componentes van en APPDATA
 ``` Win + R => AppData```
-
-php -r "$expected = trim(file_get_contents('installer.sig')); $actual = hash_file('sha384', 'composer-setup.php'); if ($actual === $expected) { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"

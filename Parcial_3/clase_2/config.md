@@ -18,7 +18,7 @@ Requisitos previos
   - xml
   - zip 
 
-## Instalación de Laravel
+## Instalación de Composer
 
 ### Windows
 
