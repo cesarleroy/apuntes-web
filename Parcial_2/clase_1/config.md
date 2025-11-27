@@ -50,3 +50,22 @@
           - Restricciones
             - Archivos o carpetas
 ```
+
+> [!IMPORTANT]
+> **Agregar PHP al Path**
+>
+> Este paso es necesario ya que más adelante se necesitará
+
+> Mediante Interfaz Gráfica
+```
+└───Barra de búsqueda
+    └───Buscar "variables de entorno" y seleccionar "Editar variables de entorno del sistema"
+        └───Crear una nueva variable llamada "PHP_HOME" y en valor colocamos la ruta de ejecutable
+            ├───Editar Path colocando %PHP_HOME% como nuevo valor
+            └───Guardar cambios
+```
+> Mediante Línea de Comandos (CLI)
+```cmd
+ setx /M PHP_HOME "C:\php"
+ setx /M PATH "%PATH%;%PHP_HOME%"
+```
