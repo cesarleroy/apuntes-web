@@ -22,7 +22,7 @@
 
 2. Tener instalados `Microsfot Visual C++ 2015-2022 Redistributable`
 3. Descargar e instalar [PHP NTS](https://windows.php.net/download/) (Non Thread Safe).
-4. Crear el `php.ini`, copiar a partir de la plantilla `php.ini-development`
+4. Crear el `php.ini`, copiar a partir de la plantilla `php.ini-development` y renombrar dicha copia como `php.ini`
 5. Editar el `php.ini` para configurar PHP y ser usado por IIS
 
 ```
